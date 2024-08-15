@@ -2,6 +2,9 @@
 
 A modern and responsive Spotify clone built using React JS and Tailwind CSS. This project aims to replicate the core features of Spotify, providing a user-friendly music streaming experience.
 
+![Sporify Clone Screenshot](./src/assets/images/Screenshot1.png) 
+![Sporify Clone Screenshot](./src/assets/images/Screenshot2.png) 
+
 ## Features
 
 - **Responsive Design**: Built with Tailwind CSS, ensuring the app looks great on all screen sizes.
