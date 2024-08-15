@@ -12,10 +12,10 @@ const Player = () => {
 
     const {seekBar, seekBg,track,time}= useContext(PlayerContext);
     return (
-        <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
-            <div className="hidden lg:flex items-center gap-4">
+        <div className='h-[10%] bg-black flex justify-between items-center text-white px-4 gap-1'>
+            <div className="lg:flex items-center gap-4 ">
                 <img src={track.musicImg} width={"60px"} height={"60px"} alt="" />
-                <div>
+                <div className='hidden'>
                     <p>{track.musicName}</p>
                     <p>{track.duration}</p>
                 </div>
